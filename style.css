@@ -22,6 +22,7 @@
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 4rem;
+    text-shadow: 1px 1px 2px cadetblue;
 }
 
 .site-heading nav{
@@ -47,10 +48,12 @@ h1 {
     text-align: center;
     color: #3d315b;
 }
-/*.Contact {
+.Contact {
     text-align: center;
     color: #3d315b;
-}*/
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .home {
     display: flex;
@@ -60,10 +63,11 @@ h1 {
 
 }
 .home img{
+    /* padding: 50px; */
     height: 800px;
     border-style: solid;
     border-color: black;
-    border-radius: 150px;
+    border-radius: 200px;
 }
 
 .menu {
@@ -72,7 +76,12 @@ h1 {
     align-items: flex-start;
     padding: 20px;
     font-family: 'Dancing Script', cursive;
-    font-size: 2rem;
+    font-size: 40px;
+}
+.menu :hover {
+    color: cadetblue;
+    font-style: oblique;
+    text-decoration: underline;
 }
 
 a {
@@ -93,6 +102,9 @@ h2{
     justify-content: center;
 }
 .kids-page {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Dancing Script', cursive;
     font-size: 2rem;
 }
+.bio-header {
+    padding: 50px;
+} 

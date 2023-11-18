@@ -21,7 +21,7 @@
 
 h1 {
     font-family: 'Dancing Script', cursive;
-    font-size: 4rem;
+    font-size: 5rem;
     text-shadow: 1px 1px 2px cadetblue;
 }
 
@@ -44,7 +44,7 @@ h1 {
     background-position: center;  
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 200px;
+    margin-bottom: 0px;
     text-align: center;
     color: #3d315b;
 }
@@ -108,9 +108,33 @@ h2{
 } 
 .link-style {
     font-family: 'Dancing Script', cursive;
+    font-size: 19px;
     float: right;
     text-decoration:none
 }
 .link-style:hover {
     color: bisque;
 }
+.home {
+    height: 1000px;
+    background-color: rgba(255,255,255,0.8);
+    background-image: url("assets/mountains.jpeg");
+    background-blend-mode: lighten;
+    background-position: center;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #3d315b;
+}
+    .bio-wrapper {
+        height: 1000px;
+        background-color: rgba(255,255,255,0.8);
+        background-image: url("assets/mountains.jpeg");
+        background-blend-mode: lighten;
+        background-position: center;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 0px;
+        text-align: center;
+        color: #3d315b;
